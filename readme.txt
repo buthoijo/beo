@@ -38,6 +38,7 @@ wrangler.toml
 
 lalu kita login ke cloudflare, worker&page, add create aplication, deploy with github, done, visit site, copy vless config.
 
+tempel/paste ke exclave.apk, httpcustom.apk, darktunnel.apk, httpinjector.apk, v2ray.apk, dll.
 ====================================
 
 There are only 3 files on GitHub:
