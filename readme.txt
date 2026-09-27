@@ -27,3 +27,21 @@ it becomes this:
 /47.250.81.46=2087
 
 ====================================
+
+file yang ada di github hanya 3 file:
+
+_worker.js
+package.json
+wrangler.toml
+
+lalu kita login ke cloudflare, worker&page, add create aplication, deploy with github, done, visit site, copy vless config.
+
+====================================
+
+There are only 3 files on GitHub:
+
+_worker.js
+package.json
+wrangler.toml
+
+then we log in to cloudflare, worker&page, add create application, deploy with github, done, visit site, copy vless config.
