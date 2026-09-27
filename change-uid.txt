@@ -1,0 +1,19 @@
+ganti / change uid :
+
+lihat di screenshot change-uud.jpg ,terlebih dahulu.
+
+ambil uid dari sini:
+https://www.uuidgenerator.net/
+
+lalu kita edit _worker.js nya
+
+pada bagian tulisan
+vless://bexnxx 
+
+bexnxx ganti dengan uid terbaru
+jadi seperti ini:
+vless://32dd1819-ea68-4f80-b48e-cce936538371
+
+ada 2 tempat uid yang bisa diganti.
+
+bagian yang lain tidak perlu dirubah.
