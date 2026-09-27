@@ -41,8 +41,8 @@ async function getAllConfigVless(hostName) {
             const response = await fetch(`https://ipwhois.app/json/${proxy}`);
             const data = await response.json();
             const pathFixed = encodeURIComponent(path);
-            const vlessTls = `vless://bexnxx\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=${pathFixed}#${data.isp} (${data.country_code})`;
-            const vlessNtls = `vless://bexnxx\u0040${hostName}:80?path=${pathFixed}&security=none&encryption=none&host=${hostName}&fp=randomized&type=ws&sni=${hostName}#${data.isp} (${data.country_code})`;
+            const vlessTls = `vless://51086c4e-1c1a-4379-ba7c-7a23944665ae\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=${pathFixed}#${data.isp} (${data.country_code})`;
+            const vlessNtls = `vless://51086c4e-1c1a-4379-ba7c-7a23944665ae\u0040${hostName}:80?path=${pathFixed}&security=none&encryption=none&host=${hostName}&fp=randomized&type=ws&sni=${hostName}#${data.isp} (${data.country_code})`;
             const vlessTlsFixed = vlessTls.replace(/ /g, '+');
             const vlessNtlsFixed = vlessNtls.replace(/ /g, '+');
             allConfigs += 
